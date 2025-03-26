@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <title>NHL Café - Startpagina</title>
+    <link rel="stylesheet" href="STYLE.css">
+</head>
+
+<body>
+    <!-- Header desktop -->
+    <header>
+    <div class="header_desktop">
+        <h3 class="auto_align">     NHL Café            </h3>
+        <p class="auto_align" id="selected_page">     Bestellen           </p>
+
+        <button class="navigation"><a href="OVERZICHT.html">Overzicht</a></button>
+        <button class="navigation"><a href="ALLES_BETALEN.HTML"> Alles betalen </a> </button>
+        <button class="navigation"><a href="PER_PERSOON_BETALEN.HTML"> Per persoon betalen </a> </button>
+    </div>
+
+    <!-- Header mobile -->
+    <div class="header_mobile">
+        <h3 class="nhl_mobile">     NHL Café            </h3>
+        <button class="hamburger_menu">☰</button>
+    </div>
+    </header>
+
+    <h1>Bestellen</h1> <!--Bestellen-->
+
+    <div class="container">
+
+        <!--Product-->
+        <div class="box" id="box1">
+            <div class="menu">
+            <ul>
+                <li>Frisdrank</li>
+                <li>Bier</li>
+                <li>Wijn</li>
+                <li class="active">Koffie</li>
+                <li>Thee</li>
+                <li>Hapjes</li>
+            </div>
+            </ul>
+        </div>
+
+        <!--Hoe bereid-->
+        <div class="box" id="box2">
+            <div class="menu">
+                <ul>
+                    <li> Normaal <button class="plus_menu">+</button></li>
+                    <li> Cappuccino <button class="plus_menu">+</button></li>
+                    <li> Latte <button class="plus_menu">+</button></li>
+                    <li> Verkeerd <button class="plus_menu">+</button></li>
+                    <li> ... <button class="plus_menu">+</button></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--Winkelmand-->
+        <div class="box" id="box3">
+            <table>
+                <thead>
+                    <tr id="tr1">
+                        <th>Product</th>
+                        <th>Amount</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="tr2">
+                        <td>Cola</td>
+                        <td><button class="min">-</button> 2 <button class="plus">+</button></td>
+                        <td><button class="trash">🗑️</button></td>
+                    </tr>
+                    <tr id="tr3">
+                        <td>Fanta</td>
+                        <td><button class="min">-</button> 3 <button class="plus">+</button></td>
+                        <td><button class="trash">🗑️</button></td>
+                    </tr>
+
+                    <tr id="tr4">
+                        <td>Koffie Normaal</td>
+                        <td><button class="min">-</button> 0 <button class="plus">+</button></td>
+                        <td><button class="trash">🗑️</button></td>
+                    </tr>
+                    <tr id="tr5">
+                        <td>Franziskaner Weisbier 0.5L</td>
+                        <td><button class="min">-</button> 4 <button class="plus">+</button></td>
+                        <td><button class="trash">🗑️</button></td>
+                    </tr>
+                </tbody>
+            </table>          
+            <button class="order-button">Bestel</button>
+        </div>
+    </div>
+    <div class="burger">
+    <div>
+        <div><p> ☰ Hamburger menu </p></div>
+        <button class="navigation"><a href="INDEX.html">Bestellen  </a></button>
+        <button class="navigation"><a href="OVERZICHT.html">Overzicht   </a></button>
+        <button class="navigation"><a href="ALLES_BETALEN.HTML"> Alles betalen </a> </button>
+        <button class="navigation"><a href="PER_PERSOON_BETALEN.HTML"> Per persoon betalen   </a> </button>
+    </div>
+   </div>
+</body>
+
+<footer>
+    <div class="TM">NHL Café®</div>
+</footer>
+
+</html>
